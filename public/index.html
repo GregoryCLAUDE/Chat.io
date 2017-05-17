@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Le chat d'Angelux</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<ul class="pages">
+		<li class="chatPages">
+			<div class="chatArea">
+				<ul id="messages"></ul>
+			</div>
+			<form action="">
+				<input type="text" id="m" autocomplete="off" required><button>Send</button>
+			</form>
+		</li>
+		<li class="loginPage">
+			<div class="form">
+				<h3 class="title">Entrez votre pseudo</h3>
+				<input type="text" class="usernameInput" maxlength="14" />
+			</div>
+		</li>
+	</ul>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+	<script
+  		src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
